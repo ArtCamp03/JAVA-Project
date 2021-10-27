@@ -1,4 +1,4 @@
-package DIO.gof;
+package DIO.gof.Singleton;
 
 /*
     Singleton : encapsula
@@ -7,7 +7,7 @@ package DIO.gof;
  */
 public class SingletonLazyHolder {
     public static class InstanceHolder{
-        public static SingletonLazyHolder instance;
+        public static SingletonLazyHolder istancia;
     }
 
 
@@ -20,6 +20,6 @@ public class SingletonLazyHolder {
         if(instance == null){
             instance = new SingletonLazyHolder();
         }
-        return InstanceHolder.instance;
+        return InstanceHolder.istancia;
     }
 }

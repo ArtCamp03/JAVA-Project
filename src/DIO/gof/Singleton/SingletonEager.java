@@ -1,4 +1,4 @@
-package DIO.gof;
+package DIO.gof.Singleton;
 
 /*
     Singleton : apressado
